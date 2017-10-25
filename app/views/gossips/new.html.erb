@@ -1,0 +1,12 @@
+<h1>the-gossip-project</h1>
+
+<%= form_tag (gossips_path) do %>
+ 
+  <%= label_tag 'title', 'title' %>
+  <%= text_field_tag 'title' %>
+ 
+  <%= label_tag 'content', 'content' %>
+  <%= text_area_tag 'text' %>
+ 
+  <%= submit_tag "Create new article"%>
+<% end %>
